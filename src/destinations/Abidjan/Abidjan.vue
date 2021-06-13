@@ -1,6 +1,7 @@
 // 参考https://www.nta.co.jp/summer/shindan/result/result_10.html
 
 <template>
+<div>
   <div id="wrapper">
     <div id="resultBlock">
       <div id="resultAreaBlock" class="Abidjan">
@@ -9,7 +10,8 @@
               <h2>アビジャン</h2>
           </div>
           <div></div>
-      </div id="resultAreaBody">
+      </div>
+      <div id="resultAreaBody">
       "〜がおすすめ"
       <br>
       "〜も素敵なアビジャン"
@@ -37,11 +39,5 @@
       <br>
       "〜〜〜〜〜〜〜〜〜〜〜〜〜"
   </div>
-  <div id="resultLinkBlock" class="clearfix">
-  <div id=snsBlock class="clearfix">
-      <a href=" ">
-          <img src=" " alt="もう一度診断する">
-      </a>
-  </div>
-  </div>
+</div>
 </template>
