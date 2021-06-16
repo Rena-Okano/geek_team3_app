@@ -63,22 +63,28 @@ export default {
             //国内で涼しい
 
             { place: "金沢", choice: ["yes", "yes", "yes", "yes"] },
-            { place: "八ッ場", choice: [("no", "no", "no", "yes")] },
+            { place: "八ッ場", choice: ["no", "no", "no", "yes"] },
           ],
           [
             //国内で温かい
-            { place: "豊島", choice: [] },
+            { place: "豊島", choice: ["no", "yes", "no", "yes"] },
           ],
         ],
 
         [
           [
             //海外で涼しい
-            { place: "ディングル半島", choice: [] },
-            { place: "クロアチア", choice: [] },
+            { place: "ディングル半島", choice: ["no", "yes", "yes", "yes"] },
+            { place: "クロアチア", choice: ["no", "no", "yes", "yes"] },
           ],
           [
             //海外で温かい
+            { place: "アビジャン", choice: ["yes", "yes", "no", "no"] },
+            { place: "サマルカンド", choice: ["no", "yes", "no", "no"] },
+            {
+              place: "サントメ・プリンシペ",
+              choice: ["yes", "no", "yes", "yes"],
+            },
           ],
         ],
       ],
@@ -102,7 +108,7 @@ export default {
         this.flag = true
         this.selection.push(this.yesno)
       } else {
-        this.resulet()
+        this.result()
       }
     },
 
@@ -124,14 +130,11 @@ export default {
       let match = 0
       let maxmatch = 0
       for (let i = 0; i < this.test[index1][index2].length; i++) {
-        //choice2 selection4
         match = 0
         for (let j = 0; j < this.test[index1][index2][i].choice.length; j++) {
-          //choice1 selection3
           if (this.selection[j + 2] == this.test[index1][index2][i].choice[j]) {
             match += 1
           }
-          // choice0 selection2
         }
         if (maxmatch < match) {
           maxmatch = match
