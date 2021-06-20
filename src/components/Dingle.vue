@@ -6,30 +6,30 @@
       <div id="resultAreaBlock" class="Abidjan">
           <div id=resultAreaTitle>"あなたにおすすめの旅先は...”
               <br>
-              <h2>アビジャン</h2>
+              <h2>ディングル半島</h2>
           </div>
           <div></div>
-      </div id="resultAreaBody">
+      <div id="resultAreaBody">
       "〜がおすすめ"
       <br>
-      "〜も素敵なアビジャン"
+      "〜も素敵なディングル半島"
     </div>
     <div id="resultAreaImage" class="sp_on">
-        <img src="" alt="アビジャン">
+        <img src="../assets/Din_top.jpg" alt="ディングル半島">
     </div>
   </div>
   <div id="resultImageBlock">
       <div class="image_thumb">
-          <img src="" alt="観光地1">
-          <p>観光地1</p>
+          <img src="../assets/Din_Mt.Brandon.jpg" alt="観光地1">
+          <p>ブランドン山</p>
       </div>
       <div class="image_thumb">
-          <img src="" alt="観光地2">
-          <p>観光地2</p>
+          <img src="../assets/Din_ビーハイブ.jpg" alt="観光地2">
+          <p>ビーハイブ・ハット</p>
       </div>
       <div class="image_thumb">
-          <img src="" alt="観光地3">
-          <p>観光地3</p>
+          <img src="../assets/Din_dolphin.jpg" alt="観光地3">
+          <p>ドルフィンウォッチング</p>
       </div>
   </div>
   <div id="resultTxtBlock">
