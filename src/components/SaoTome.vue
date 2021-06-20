@@ -9,7 +9,7 @@
               <h2>アビジャン</h2>
           </div>
           <div></div>
-      </div id="resultAreaBody">
+      <div id="resultAreaBody">
       "〜がおすすめ"
       <br>
       "〜も素敵なアビジャン"
@@ -44,4 +44,5 @@
       </a>
   </div>
   </div>
+
 </template>

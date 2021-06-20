@@ -1,13 +1,58 @@
 <template>
   <div>
-    <h1>{{ Quiz[index].Question }}</h1>
-    <button v-on:click="yes">{{ Quiz[index].Yes }}</button>
-    <button v-on:click="no">{{ Quiz[index].No }}</button>
-    <button v-bind:disabled="flag" v-on:click="next">次へ</button>
+    <div v-if="answer === 'アビジャン'">
+      <Abidjan />
+    </div>
+    <div v-else-if="answer === 'サマルカンド'">
+      <Samarkand />
+    </div>
+    <div v-else-if="answer === 'サントメ・プリンシペ'">
+      <SaoTome />
+    </div>
+    <div v-else-if="answer === 'ディングル半島'">
+      <Dingle />
+    </div>
+    <div v-else-if="answer === 'クロアチア'">
+      <Croatia />
+    </div>
+    <div v-else-if="answer === '金沢'">
+      <Kanazawa />
+    </div>
+    <div v-else-if="answer === '豊島'">
+      <Teshima />
+    </div>
+    <div v-else-if="answer === '八ッ場'">
+      <Yamba />
+    </div>
+    <div v-else>
+      <h1>{{ Quiz[index].Question }}</h1>
+      <button v-on:click="yes">{{ Quiz[index].Yes }}</button>
+      <button v-on:click="no">{{ Quiz[index].No }}</button>
+      <button v-bind:disabled="flag" v-on:click="next">次へ</button>
+    </div>
   </div>
 </template>
 <script>
+import Abidjan from "@/components/Abidjan.vue"
+import Samarkand from "@/components/Samarkand.vue"
+import SaoTome from "@/components/SaoTome.vue"
+import Dingle from "@/components/Dingle.vue"
+import Croatia from "@/components/Croatia.vue"
+import Kanazawa from "@/components/Kanazawa.vue"
+import Teshima from "@/components/Teshima.vue"
+import Yamba from "@/components/Yamba.vue"
+
 export default {
+  components: {
+    Abidjan,
+    Samarkand,
+    SaoTome,
+    Dingle,
+    Croatia,
+    Kanazawa,
+    Teshima,
+    Yamba,
+  },
   data() {
     return {
       Quiz: [
