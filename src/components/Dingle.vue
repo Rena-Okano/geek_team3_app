@@ -4,20 +4,26 @@
   <div id="wrapper">
     <div id="resultBlock">
       <div id="resultAreaBlock" class="Dingle">
-        <div id="resultAreaTitle">
-          "あなたにおすすめの旅先は...”
-          <br />
-          <h2>ディングル半島</h2>
-        </div>
-        <div></div>
-        <div id="resultAreaBody">
-          "〜がおすすめ"
-          <br />
-          "〜も素敵なディングル半島"
-        </div>
-        <div id="resultAreaImage" class="sp_on">
-          <img src="../assets/Din_top.jpg" alt="ディングル半島" />
-        </div>
+
+          <div id=resultAreaTitle>"あなたにおすすめの旅先は...”
+              <br>
+              <h2>ディングル半島</h2>
+          </div>
+          <div></div>
+      <div id="resultAreaBody">
+      "〜がおすすめ"
+      <br>
+      "〜も素敵なディングル半島"
+    </div>
+    <div id="resultAreaImage" class="sp_on">
+        <img src="../assets/Din_top.jpg" alt="ディングル半島">
+    </div>
+  </div>
+  <div id="resultImageBlock">
+      <div class="image_thumb">
+          <img src="../assets/Din_Mt.Brandon.jpg" alt="観光地1">
+          <p>ブランドン山</p>
+
       </div>
       <div id="resultImageBlock">
         <div class="image_thumb">
