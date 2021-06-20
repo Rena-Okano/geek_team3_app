@@ -3,7 +3,7 @@
 <template>
   <div id="wrapper">
     <div id="resultBlock">
-      <div id="resultAreaBlock" class="Abidjan">
+      <div id="resultAreaBlock" class="Dingle">
           <div id=resultAreaTitle>"あなたにおすすめの旅先は...”
               <br>
               <h2>ディングル半島</h2>

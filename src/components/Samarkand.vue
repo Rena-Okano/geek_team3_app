@@ -3,7 +3,7 @@
 <template>
   <div id="wrapper">
     <div id="resultBlock">
-      <div id="resultAreaBlock" class="Abidjan">
+      <div id="resultAreaBlock" class="Samarkand">
         <div id="resultAreaTitle">
           "あなたにおすすめの旅先は...”
           <br />
@@ -13,24 +13,24 @@
         <div id="resultAreaBody">
           "〜がおすすめ"
           <br />
-          "〜も素敵なアビジャン"
+          "〜も素敵なサマルカンド"
         </div>
         <div id="resultAreaImage" class="sp_on">
-          <img src="" alt="アビジャン" />
+          <img src="../assets/Sam_top.jpg" alt="サマルカンド" />
         </div>
       </div>
       <div id="resultImageBlock">
         <div class="image_thumb">
-          <img src="" alt="観光地1" />
-          <p>観光地1：美味しそうなところ</p>
+          <img src="../assets/Sam_Guri-Amir.jpg" alt="観光地1" />
+          <p>グーリ・アミール廟</p>
         </div>
         <div class="image_thumb">
-          <img src="" alt="観光地2" />
-          <p>観光地2</p>
+          <img src="../assets/Sam_food.jpg" alt="観光地2" />
+          <p>ウズベキスタン料理</p>
         </div>
         <div class="image_thumb">
-          <img src="" alt="観光地3" />
-          <p>観光地3</p>
+          <img src="../assets/Sam_レギスタン広場.jpg" alt="観光地3" />
+          <p>レギスタン広場</p>
         </div>
       </div>
       <div id="resultTxtBlock">
