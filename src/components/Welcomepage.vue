@@ -1,29 +1,44 @@
 <template>
   <div class="welcomepage">
-    <div>
-      <h2>あなたにピッタリの旅行先は？</h2>
-    </div>
-    <div>
-      <img
-        src="https://1.bp.blogspot.com/-EqzOEPHpoK4/UZSsovw5jpI/AAAAAAAAS5E/LwiSgyae1BA/s400/TajMahal.png"
-        alt="表示するものがありません"
-      />
-    </div>
-    <div>
-      <p>⇩心理テストでおすすめの旅行先を⇩</p>
-      <p></p>
-    </div>
+    <div v-if="quiz === true">
+      <div>
+        <h2>あなたにピッタリの旅行先は？</h2>
+      </div>
+      <div>
+        <img
+          src="https://1.bp.blogspot.com/-EqzOEPHpoK4/UZSsovw5jpI/AAAAAAAAS5E/LwiSgyae1BA/s400/TajMahal.png"
+          alt="表示するものがありません"
+        />
+      </div>
+      <div>
+        <p>⇩心理テストでおすすめの旅行先を⇩</p>
+        <p></p>
+      </div>
 
-    <div>
-      <button class="shindan-button">診断する</button>
-      <!-- <a class="button" href="#">診断する</a> -->
+      <div>
+        <button class="shindan-button" v-on:click="shindan">診断する</button>
+        <!-- <a class="button" href="#">診断する</a> -->
+      </div>
     </div>
-    <div></div>
+    <div v-else><Quiz /></div>
   </div>
 </template>
 
 <script>
-export default {};
+import Quiz from "@/components/Quiz.vue"
+export default {
+  components: { Quiz },
+  data() {
+    return {
+      quiz: true,
+    }
+  },
+  methods: {
+    shindan: function () {
+      this.quiz = false
+    },
+  },
+}
 </script>
 
 <style scoped>

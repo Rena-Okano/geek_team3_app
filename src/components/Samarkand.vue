@@ -1,6 +1,8 @@
 // 参考https://www.nta.co.jp/summer/shindan/result/result_10.html
 
 <template>
+
+
   <div id="wrapper">
     <div id="resultBlock">
       <div id="resultAreaBlock" class="Abidjan">
@@ -47,4 +49,5 @@
       </div>
     </div>
   </div>
+
 </template>
