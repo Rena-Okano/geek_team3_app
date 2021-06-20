@@ -4,6 +4,7 @@
   <div id="wrapper">
     <div id="resultBlock">
       <div id="resultAreaBlock" class="SaoTome">
+
           <div id=resultAreaTitle>"あなたにおすすめの旅先は...”
               <br>
               <h2>サントメ・プリンシペ</h2>
@@ -30,18 +31,15 @@
       <div class="image_thumb">
           <img src="../assets/SaoT_obo-park.jpg" alt="観光地3">
           <p>オボ自然公園</p>
+
       </div>
-  </div>
-  <div id="resultTxtBlock">
-      "〜〜〜〜〜〜〜〜〜〜〜〜〜〜"
-      <br>
-      "〜〜〜〜〜〜〜〜〜〜〜〜〜"
-  </div>
-  <div id="resultLinkBlock" class="clearfix">
-  <div id=snsBlock class="clearfix">
-      <a href=" ">
-          <img src=" " alt="もう一度診断する">
-      </a>
-  </div>
+      <div id="resultLinkBlock" class="clearfix">
+        <div id="snsBlock" class="clearfix">
+          <a href=" ">
+            <img src=" " alt="もう一度診断する" />
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
