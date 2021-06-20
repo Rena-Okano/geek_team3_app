@@ -10,6 +10,7 @@
 import NavBar from "@/components/NavBar.vue"
 import Welcomepage from "./components/Welcomepage.vue"
 
+
 export default {
   components: {
     NavBar,
