@@ -1,6 +1,9 @@
 <template>
   <div>
-    <div v-if="answer === 'アビジャン'">
+    <div v-if="answer === 'クロアチア'">
+      <Croatia />
+    </div>
+    <div v-else-if="answer === 'アビジャン'">
       <Abidjan />
     </div>
     <div v-else-if="answer === 'サマルカンド'">
@@ -12,9 +15,7 @@
     <div v-else-if="answer === 'ディングル半島'">
       <Dingle />
     </div>
-    <div v-else-if="answer === 'クロアチア'">
-      <Croatia />
-    </div>
+
     <div v-else-if="answer === '金沢'">
       <Kanazawa />
     </div>
@@ -25,10 +26,10 @@
       <Yamba />
     </div>
     <div v-else>
-      <h1>{{ Quiz[index].Question }}</h1>
-      <button v-on:click="yes">{{ Quiz[index].Yes }}</button>
-      <button v-on:click="no">{{ Quiz[index].No }}</button>
-      <button v-bind:disabled="flag" v-on:click="next">次へ</button>
+      <h1 class="quiz">{{ Quiz[index].Question }}</h1>
+      <button v-on:click="yes" id="yes">{{ Quiz[index].Yes }}</button>
+      <button v-on:click="no" id="no">{{ Quiz[index].No }}</button><br />
+      <button v-bind:disabled="flag" v-on:click="next" id="next">次へ</button>
     </div>
   </div>
 </template>
@@ -190,4 +191,71 @@ export default {
   },
 }
 </script>
-<style></style>
+<style>
+h1 {
+  font-size: 50px;
+  text-align: center;
+  align-items: center;
+  vertical-align: center;
+}
+.quiz {
+  font-size: 60px;
+  text-align: center;
+  align-items: center;
+  vertical-align: center;
+}
+#yes {
+  background-color: rgb(46, 67, 95);
+  border: 1px solid #333;
+  color: #fff;
+  line-height: 20px;
+  width: 12%;
+  padding: 20px;
+  margin-top: 300px;
+}
+#no {
+  background-color: rgb(46, 67, 95);
+  border: 1px solid #333;
+  color: #fff;
+  line-height: 20px;
+  width: 12%;
+  padding: 20px;
+  margin-top: 300px;
+}
+#next {
+  background-color: #ffb76b;
+  border: 1px solid #ff7f04;
+  color: #fff;
+  line-height: 10px;
+  width: 8%;
+  padding: 10px;
+  margin-top: 100px;
+}
+#yes:hover {
+  background-color: #fff;
+  border-color: #59b1eb;
+  color: #59b1eb;
+}
+
+#yes:focus {
+  background-color: rgb(255, 236, 236);
+  border-color: #fc7642;
+  color: #05080a;
+}
+#no:hover {
+  background-color: #fff;
+  border-color: #59b1eb;
+  color: #59b1eb;
+}
+#no:focus {
+  background-color: rgb(255, 236, 236);
+  border-color: #fc7642;
+  color: #05080a;
+}
+
+#next:hover {
+  background-color: rgb(248, 238, 206);
+  border-color: #fa9e26;
+  color: #fa9e26;
+}
+</style>
