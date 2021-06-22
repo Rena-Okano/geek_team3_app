@@ -34,7 +34,7 @@
         <br />
         "〜〜〜〜〜〜〜〜〜〜〜〜〜" 
       <div class="image_thumb">
-          <img src="../assets/SaoT_obo-park.jpg" alt="観光地3">
+          <img src="../assets/SaoT_obo-park.jpeg" alt="観光地3">
           <p>オボ自然公園</p>
       </div>
       <div id="resultLinkBlock" class="clearfix">

@@ -9,7 +9,7 @@
               <br>
               <h2>八ッ場ダム</h2>
           </div>
-          <div></div>
+          
       <div id="resultAreaBody">
       "〜がおすすめ"
       <br>
@@ -45,5 +45,6 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
 </template>

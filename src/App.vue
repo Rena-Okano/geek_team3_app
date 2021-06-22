@@ -1,19 +1,18 @@
 <template>
   <div>
-    <NavBar />
-    <router-view />
+    <!--NavBar />
+    <router-view /-->
     <Welcomepage />
   </div>
 </template>
 
 <script>
-import NavBar from "@/components/NavBar.vue"
+//import NavBar from "@/components/NavBar.vue"
 import Welcomepage from "./components/Welcomepage.vue"
-
 
 export default {
   components: {
-    NavBar,
+    // NavBar,
     Welcomepage,
   },
 }
