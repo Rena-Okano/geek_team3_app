@@ -3,7 +3,9 @@
 <template>
   <div id="wrapper">
     <div id="resultBlock">
-      <div id="resultAreaBlock" class="Abidjan">
+
+      <div id="resultAreaBlock" class="Kanazawa">
+ 
         <div id="resultAreaTitle">
           "あなたにおすすめの旅先は...”
           <br />
@@ -13,31 +15,30 @@
         <div id="resultAreaBody">
           "〜がおすすめ"
           <br />
-          "〜も素敵なアビジャン"
+
+
+          "〜も素敵な金沢"
         </div>
         <div id="resultAreaImage" class="sp_on">
-          <img src="../assets/Abidjan_top.jpg" alt="アビジャン" />
+          <img src="" alt="金沢" />
+ 
         </div>
       </div>
       <div id="resultImageBlock">
         <div class="image_thumb">
-          <img src="../assets/Abidjan_聖ポール大聖堂.jpg" alt="観光地1" />
-          <p>聖ポール大聖堂</p>
-          <p>個性的なアフリカ模様のステンドグラスが見られるモダンな大聖堂</p>
+
+
+          <img src="../assets/Kana_兼六園.jpg" alt="観光地1" />
+          <p>兼六園</p>
         </div>
         <div class="image_thumb">
-          <img src="../assets/Abidjan_プラトーモスク.jpg" alt="観光地2" />
-          <p>プラトーのグランドモスク</p>
-          <p>
-            イスラム教徒の祈りの場、絵本の世界から飛び出たようなデザインの可愛らしいモスク
-          </p>
+          <img src="../assets/Kana_近江市場.jpg" alt="観光地2" />
+          <p>近江市場</p>
         </div>
         <div class="image_thumb">
-          <img src="../assets/Abidjan_Tai-National-Park.jpg" alt="観光地3" />
-          <p>タイ国立公園</p>
-          <p>
-            西アフリカ最後の貴重な原生林が広がる！コートジボワールの世界遺産
-          </p>
+          <img src="../assets/Kana_21st.jpg" alt="観光地3" />
+          <p>21世紀美術館</p>
+ 
         </div>
       </div>
       <div id="resultTxtBlock">

@@ -11,9 +11,9 @@
         </div>
         <div></div>
         <div id="resultAreaBody">
-          "〜がおすすめ"
+          "西アフリカ コートジボワールの大都市！"
           <br />
-          "〜も素敵なアビジャン"
+          "近未来建築と大自然が共存するアビジャン"
         </div>
         <div id="resultAreaImage" class="sp_on">
           <img src="../assets/Abidjan_top.jpg" alt="アビジャン" />
