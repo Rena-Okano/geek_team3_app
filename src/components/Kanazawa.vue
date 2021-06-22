@@ -3,34 +3,34 @@
 <template>
   <div id="wrapper">
     <div id="resultBlock">
-      <div id="resultAreaBlock" class="Abidjan">
+      <div id="resultAreaBlock" class="Kanazawa">
         <div id="resultAreaTitle">
           "あなたにおすすめの旅先は...”
           <br />
-          <h2>アビジャン</h2>
+          <h2>金沢</h2>
         </div>
         <div></div>
         <div id="resultAreaBody">
           "〜がおすすめ"
           <br />
-          "〜も素敵なアビジャン"
+          "〜も素敵な金沢"
         </div>
         <div id="resultAreaImage" class="sp_on">
-          <img src="" alt="アビジャン" />
+          <img src="" alt="金沢" />
         </div>
       </div>
       <div id="resultImageBlock">
         <div class="image_thumb">
-          <img src="" alt="観光地1" />
-          <p>観光地1</p>
+          <img src="../assets/Kana_兼六園.jpg" alt="観光地1" />
+          <p>兼六園</p>
         </div>
         <div class="image_thumb">
-          <img src="" alt="観光地2" />
-          <p>観光地2</p>
+          <img src="../assets/Kana_近江市場.jpg" alt="観光地2" />
+          <p>近江市場</p>
         </div>
         <div class="image_thumb">
-          <img src="" alt="観光地3" />
-          <p>観光地3</p>
+          <img src="../assets/Kana_21st.jpg" alt="観光地3" />
+          <p>21世紀美術館</p>
         </div>
       </div>
       <div id="resultTxtBlock">

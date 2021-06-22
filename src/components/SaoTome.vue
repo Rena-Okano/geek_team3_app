@@ -28,10 +28,14 @@
           <img src="../assets/SaoT_中央市場.jpg" alt="観光地2">
           <p>中央市場</p>
       </div>
+
+      <div id="resultTxtBlock">
+        "〜〜〜〜〜〜〜〜〜〜〜〜〜〜"
+        <br />
+        "〜〜〜〜〜〜〜〜〜〜〜〜〜" 
       <div class="image_thumb">
           <img src="../assets/SaoT_obo-park.jpg" alt="観光地3">
           <p>オボ自然公園</p>
-
       </div>
       <div id="resultLinkBlock" class="clearfix">
         <div id="snsBlock" class="clearfix">

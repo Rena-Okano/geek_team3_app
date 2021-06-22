@@ -28,10 +28,14 @@
           <img src="../assets/Yamba_吾妻峡.jpg" alt="観光地2">
           <p>吾妻峡</p>
       </div>
+
+      <div id="resultTxtBlock">
+        "〜〜〜〜〜〜〜〜〜〜〜〜〜〜"
+        <br />
+        "〜〜〜〜〜〜〜〜〜〜〜〜〜"
       <div class="image_thumb">
           <img src="../assets/Yamba_川原湯.jpg" alt="観光地3">
           <p>川原湯温泉</p>
-
       </div>
       <div id="resultLinkBlock" class="clearfix">
         <div id="snsBlock" class="clearfix">

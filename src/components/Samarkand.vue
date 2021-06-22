@@ -30,7 +30,8 @@
         </div>
         <div class="image_thumb">
 
-          <img src="../assets/Sam_レギスタン広場.jpg" alt="観光地3" />
+          <img src="../assets/Sam_レギスタン広場.jpeg" alt="観光地3" />
+
 
           <p>レギスタン広場</p>
         </div>
