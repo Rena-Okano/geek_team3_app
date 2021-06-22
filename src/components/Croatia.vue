@@ -11,9 +11,9 @@
         </div>
         <div></div>
         <div id="resultAreaBody">
-          "〜がおすすめ"
+          "アドリア海と街並みの織りなす美しいコントラストが魅力"
           <br />
-          "〜も素敵なクロアチア"
+          "古代ローマ3000年の歴史に思いを馳せるクロアチア"
         </div>
         <div id="resultAreaImage" class="sp_on">
           <img src="../assets/Cro_top.jpeg" alt="クロアチア" />
