@@ -18,7 +18,8 @@
         <div id="resultAreaImage" class="sp_on">
           <img src="../assets/Cro_top.jpeg" alt="クロアチア" />
         </div>
-        >>>>>>> origin/japan
+
+
       </div>
       <div id="resultImageBlock">
         <div class="image_thumb">

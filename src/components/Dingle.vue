@@ -4,6 +4,7 @@
   <div id="wrapper">
     <div id="resultBlock">
       <div id="resultAreaBlock" class="Dingle">
+
         <div id="resultAreaTitle">
           "あなたにおすすめの旅先は...”
           <br />
@@ -18,7 +19,7 @@
         <div id="resultAreaImage" class="sp_on">
           <img src="../assets/Din_top.jpg" alt="ディングル半島" />
         </div>
-        >>>>>>> origin/japan
+     
       </div>
       <div id="resultImageBlock">
         <div class="image_thumb">
