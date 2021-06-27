@@ -3,9 +3,7 @@
 <template>
   <div id="wrapper">
     <div id="resultBlock">
-
       <div id="resultAreaBlock" class="Kanazawa">
- 
         <div id="resultAreaTitle">
           "あなたにおすすめの旅先は...”
           <br />
@@ -16,29 +14,24 @@
           "〜がおすすめ"
           <br />
 
-
           "〜も素敵な金沢"
         </div>
         <div id="resultAreaImage" class="sp_on">
           <img src="" alt="金沢" />
- 
         </div>
       </div>
       <div id="resultImageBlock">
         <div class="image_thumb">
-
-
           <img src="../assets/Kana_兼六園.jpg" alt="観光地1" />
           <p>兼六園</p>
         </div>
         <div class="image_thumb">
-          <img src="../assets/Kana_近江市場.jpg" alt="観光地2" />
-          <p>近江市場</p>
+          <img src="../assets/Kana_近江町市場.jpg" alt="観光地2" />
+          <p>近江町市場</p>
         </div>
         <div class="image_thumb">
           <img src="../assets/Kana_21st.jpg" alt="観光地3" />
           <p>21世紀美術館</p>
- 
         </div>
       </div>
       <div id="resultTxtBlock">
