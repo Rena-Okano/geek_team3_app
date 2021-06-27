@@ -1,25 +1,27 @@
 <template>
-  <div class="welcomepage">
+  <div>
     <div v-if="quiz === true">
-      <div>
-        <h1>あなたにピッタリの旅行先は？</h1>
-      </div>
-      <div>
-        <transition
-          ><img
-            :src="slidshow[index]"
-            alt="表示するものがありません"
-            width="1000px;"
-            height="600px;"
-        /></transition>
-      </div>
-      <div>
-        <h3>⇩心理テストでおすすめの旅行先を⇩</h3>
-      </div>
+      <div class="welcomepage">
+        <div>
+          <h1>あなたにピッタリの旅行先は？</h1>
+        </div>
+        <div>
+          <transition
+            ><img
+              :src="slidshow[index]"
+              alt="表示するものがありません"
+              width="1000px;"
+              height="600px;"
+          /></transition>
+        </div>
+        <div>
+          <h3>⇩心理テストでおすすめの旅行先を⇩</h3>
+        </div>
 
-      <div>
-        <button class="shindan-button" v-on:click="shindan">診断する</button>
-        <!-- <a class="button" href="#">診断する</a> -->
+        <div>
+          <button class="shindan-button" v-on:click="shindan">診断する</button>
+          <!-- <a class="button" href="#">診断する</a> -->
+        </div>
       </div>
     </div>
 
@@ -62,10 +64,9 @@ export default {
 
 <style scoped>
 .welcomepage {
-  height: 100%;
+  height: 150%;
   width: 100%;
   position: absolute;
-  top: 10%;
 
   background: #343536;
   background-position: center;
