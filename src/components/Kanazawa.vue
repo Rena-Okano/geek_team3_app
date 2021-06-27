@@ -27,7 +27,9 @@
         </div>
         <div class="image_thumb">
           <img src="../assets/Kana_近江町市場.jpg" alt="観光地2" />
+
           <p>近江町市場</p>
+
         </div>
         <div class="image_thumb">
           <img src="../assets/Kana_21st.jpg" alt="観光地3" />

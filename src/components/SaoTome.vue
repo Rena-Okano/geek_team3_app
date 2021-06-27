@@ -1,6 +1,6 @@
+
 /* eslint-disable prettier/prettier */ //
 参考https://www.nta.co.jp/summer/shindan/result/result_10.html
-
 <template>
   <div id="wrapper">
     <div id="resultBlock">
@@ -28,6 +28,7 @@
         <div class="image_thumb">
           <img src="../assets/SaoT_中央市場.jpg" alt="観光地2" />
           <p>中央市場</p>
+
         </div>
 
         <div id="resultTxtBlock">
@@ -45,6 +46,7 @@
               </a>
             </div>
           </div>
+
         </div>
       </div>
     </div>

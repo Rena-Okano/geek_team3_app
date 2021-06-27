@@ -64,11 +64,14 @@ export default {
 .welcomepage {
   height: 100%;
   width: 100%;
+  position: absolute;
+  top: 10%;
 
   background: #343536;
   background-position: center;
   align-items: center;
   text-align: center;
+  justify-content: center;
 
   background-size: contain;
   color: rgb(255, 255, 255);
@@ -118,6 +121,7 @@ export default {
 
 h1 {
   font-size: 50pt;
+  font-family: Hiragino-sans;
   color: #ff7c00;
   background: -webkit-linear-gradient(
     top,
