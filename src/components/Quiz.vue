@@ -26,10 +26,13 @@
       <Yamba />
     </div>
     <div v-else>
-      <h1 class="quiz">{{ Quiz[index].Question }}</h1>
-      <button v-on:click="yes" id="yes">{{ Quiz[index].Yes }}</button>
-      <button v-on:click="no" id="no">{{ Quiz[index].No }}</button><br />
-      <button v-bind:disabled="flag" v-on:click="next" id="next">次へ</button>
+      <div class="quiz">
+        <div class="box">{{ Quiz[index].Question }}</div>
+
+        <button v-on:click="yes" id="yes">{{ Quiz[index].Yes }}</button>
+        <button v-on:click="no" id="no">{{ Quiz[index].No }}</button><br />
+        <button v-bind:disabled="flag" v-on:click="next" id="next">次へ</button>
+      </div>
     </div>
   </div>
 </template>
@@ -191,36 +194,48 @@ export default {
   },
 }
 </script>
-<style>
-h1 {
-  font-size: 50px;
-  text-align: center;
-  align-items: center;
-  vertical-align: center;
-}
+<style scoped>
 .quiz {
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 10rem;
   font-size: 60px;
+  font-family: Hiragino-sans;
+  padding-top: 80px;
   text-align: center;
   align-items: center;
   vertical-align: center;
+
+  width: 80%;
+  height: 100%;
+  margin: 0% 10% 10% 10%;
+
+  background: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+  border-radius: 5px;
+
+  padding-bottom: 20px;
 }
+
 #yes {
   background-color: rgb(46, 67, 95);
   border: 1px solid #333;
   color: #fff;
-  line-height: 20px;
+  line-height: 40px;
   width: 12%;
-  padding: 20px;
-  margin-top: 300px;
+
+  margin-top: 20px;
 }
 #no {
   background-color: rgb(46, 67, 95);
   border: 1px solid #333;
   color: #fff;
-  line-height: 20px;
+  line-height: 40px;
   width: 12%;
-  padding: 20px;
-  margin-top: 300px;
+  height: 3%;
+  margin-top: 20px;
 }
 #next {
   background-color: #ffb76b;

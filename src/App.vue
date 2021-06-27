@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <!--NavBar />
     <router-view /-->
     <Welcomepage />
@@ -19,10 +19,14 @@ export default {
 </script>
 
 <style>
-* {
+#app {
+  text-align: center;
+  align-items: center;
+}
+/* {
   box-sizing: border-box;
 }
 body {
   margin: 0;
-}
+}*/
 </style>
