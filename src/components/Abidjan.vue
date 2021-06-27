@@ -16,8 +16,12 @@
           <br />
           "近未来建築と大自然が共存するアビジャン"
         </div>
-        <div id="resultAreaImage" class="sp_on">
-          <img src="../assets/Abidjan_top.jpg" alt="アビジャン" />
+        <div class="sp_on">
+          <img
+            src="../assets/Abidjan_top.jpg"
+            alt="アビジャン"
+            id="resultAreaImage"
+          />
         </div>
       </div>
       <div id="resultImageBlock">
@@ -65,12 +69,9 @@
         "〜〜〜〜〜〜〜〜〜〜〜〜〜"
       </div> -->
       <div id="resultLinkBlock" class="clearfix">
-        <div id="snsBlock" class="clearfix">
-          <div class=""></div>
-          <a href=" " class="retry-btn">
-            <span>もう一度診断する</span>
-          </a>
-        </div>
+        <a href=" " class="retry-btn">
+          <span>もう一度診断する</span>
+        </a>
       </div>
     </div>
   </div>
@@ -84,8 +85,10 @@
 
 h2 {
   position: relative;
-  padding: 1em 2em;
+  padding: 0.5em;
   text-align: center;
+  margin: 5rem;
+  background: linear-gradient(transparent 40%, #ffc037 150%);
 }
 
 h2:before,
@@ -99,8 +102,8 @@ h2:after {
   left: 0;
   width: 50px;
   height: 50px;
-  border-top: 2px solid rgb(248, 233, 233);
-  border-left: 2px solid rgb(248, 233, 233);
+  border-top: 4px solid rgb(23, 2, 114);
+  border-left: 4px solid rgb(23, 2, 114);
 }
 
 h2:before {
@@ -108,8 +111,8 @@ h2:before {
   bottom: 0;
   width: 50px;
   height: 50px;
-  border-right: 2px solid rgb(248, 233, 233);
-  border-bottom: 2px solid rgb(248, 233, 233);
+  border-right: 4px solid rgb(23, 2, 114);
+  border-bottom: 4px solid rgb(23, 2, 114);
 }
 
 .wrapper #resultBlock {
@@ -127,6 +130,7 @@ h2:before {
 }
 #resultAreaImage {
   margin: 70px 0px 70px 0px;
+  border-radius: 5%;
 }
 
 @media (min-width: 992px) {
@@ -160,69 +164,78 @@ h2:before {
   margin: 0px auto 20px auto;
   border-radius: 100%;
 }
-.wrapper #resultAreaBlock .image_thumb .text {
+#resultAreaBlock .image_thumb .text {
   line-height: 1.8rem;
   font-size: 0.8rem;
   color: #666666;
 }
 
+#resultLinkBlock {
+  padding: 200px 0 200px 0;
+  margin: 30rem 0 0 0;
+  display: block;
+}
+
 .retry-btn {
-  /*その他と主な共通部分は省略*/
-
-  overflow: hidden;
-  margin-top: 50rem;
-  padding: 1.5rem 6rem;
-
-  color: #fff;
-  border-radius: 0;
-  background: #000;
-}
-
-.retry-btn span {
+  display: inline-block;
   position: relative;
-  z-index: 1;
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #1b1b1b;
+  background: #fff;
 }
-
-.retry-btn:before {
-  position: absolute;
-  top: 0;
-  left: calc(-100% + 10px);
-
-  width: 100%;
-  height: 100%;
-
+.retry-btn::before {
+  display: inline-block;
   content: "";
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transform: translateX(0) translateY(0);
-  transform: translateX(0) translateY(0);
-
-  background: #094;
-}
-
-.retry-btn:after {
+  width: 10px;
+  height: 10px;
   position: absolute;
-  top: 0;
-  right: calc(-100% + 10px);
-
-  width: 100%;
-  height: 100%;
-
+  top: 0px;
+  left: 0px;
+  border-top: 1px solid #1b1b1b;
+  border-left: 1px solid #1b1b1b;
+}
+.retry-btn::after {
+  display: inline-block;
   content: "";
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transform: translateX(0) translateY(0);
-  transform: translateX(0) translateY(0);
-
-  background: #094;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-top: 1px solid #1b1b1b;
+  border-right: 1px solid #1b1b1b;
 }
-
-.retry-btn:hover:before {
-  -webkit-transform: translateX(50%) translateY(0);
-  transform: translateX(50%) translateY(0);
+.retry-btn span::before {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-bottom: 1px solid #1b1b1b;
+  border-left: 1px solid #1b1b1b;
 }
-.retry-btn:hover:after {
-  -webkit-transform: translateX(-50%) translateY(0);
-  transform: translateX(-50%) translateY(0);
+.retry-btn span::after {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-bottom: 1px solid #1b1b1b;
+  border-right: 1px solid #1b1b1b;
+}
+.retry-btn:hover {
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.3s;
+  transform-origin: center;
+  transform: scale(0.8, 0.8);
 }
 </style>
