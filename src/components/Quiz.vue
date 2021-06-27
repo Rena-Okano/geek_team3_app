@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="spot">
     <div v-if="answer === 'クロアチア'">
       <Croatia />
     </div>
@@ -25,6 +25,7 @@
     <div v-else-if="answer === '八ッ場'">
       <Yamba />
     </div>
+
     <div v-else>
       <div class="quiz">
         <div class="box">{{ Quiz[index].Question }}</div>
@@ -195,15 +196,21 @@ export default {
 }
 </script>
 <style scoped>
+.spot {
+  width: 100%;
+  height: 100%;
+}
 .quiz {
-  justify-content: center;
+  background-color: #333;
+  background-size: cover;
+  height: 100%;
 
   align-items: center;
 }
 .box {
   height: 10rem;
   font-size: 60px;
-  font-family: Hiragino-sans;
+  font-family: "Hannotate SC";
   padding-top: 80px;
   text-align: center;
   align-items: center;
