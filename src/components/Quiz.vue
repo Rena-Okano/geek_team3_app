@@ -195,8 +195,10 @@ export default {
 }
 </script>
 <style scoped>
+
 .quiz {
   justify-content: center;
+
   align-items: center;
 }
 .box {
