@@ -201,13 +201,14 @@ export default {
   height: 100%;
 }
 .quiz {
-  background-color: #333;
+  background-color: #eaf4fd;
   background-size: cover;
   height: 100%;
-
   align-items: center;
 }
 .box {
+  background: #eaf4fd;
+  background-size: cover;
   height: 10rem;
   font-size: 60px;
   font-family: "Hannotate SC";
@@ -233,8 +234,7 @@ export default {
   color: #fff;
   line-height: 40px;
   width: 12%;
-
-  margin-top: 20px;
+  margin-top: 5%;
 }
 #no {
   background-color: rgb(46, 67, 95);
@@ -243,7 +243,7 @@ export default {
   line-height: 40px;
   width: 12%;
   height: 3%;
-  margin-top: 20px;
+  margin-top: 5%;
 }
 #next {
   background-color: #ffb76b;
@@ -252,8 +252,10 @@ export default {
   line-height: 10px;
   width: 8%;
   padding: 10px;
+
   margin-top: 100px;
   margin-bottom: 60px;
+
 }
 #yes:hover {
   background-color: #fff;
