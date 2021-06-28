@@ -212,7 +212,7 @@ export default {
   height: 10rem;
   font-size: 60px;
   font-family: "Hannotate SC";
-  padding-top: 80px;
+  padding-top: 60px;
   text-align: center;
   align-items: center;
   vertical-align: center;
@@ -252,7 +252,10 @@ export default {
   line-height: 10px;
   width: 8%;
   padding: 10px;
-  margin: 5% 0 5% 0;
+
+  margin-top: 100px;
+  margin-bottom: 60px;
+
 }
 #yes:hover {
   background-color: #fff;
