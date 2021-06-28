@@ -1,5 +1,4 @@
 // 参考https://www.nta.co.jp/summer/shindan/result/result_10.html
-
 <template>
   <div class="wrapper">
     <div id="resultBlock">
@@ -9,14 +8,13 @@
           <br />
           <h2>アビジャン</h2>
         </div>
-        <div></div>
         <div id="resultAreaBody">
           "西アフリカ コートジボワールの大都市！"
           <br />
           <br />
           "近未来建築と大自然が共存するアビジャン"
         </div>
-        <div class="sp_on">
+        <div id="resultAreaImage">
           <img
             src="../assets/Abidjan_top.jpg"
             alt="アビジャン"
@@ -68,7 +66,7 @@
         <br />
         "〜〜〜〜〜〜〜〜〜〜〜〜〜"
       </div> -->
-      <div id="resultLinkBlock" class="clearfix">
+      <div id="resultLinkBlock">
         <a href=" " class="retry-btn">
           <span>もう一度診断する</span>
         </a>
@@ -76,13 +74,11 @@
     </div>
   </div>
 </template>
-
 <style scoped>
 /* resultBlock */
 .wrapper {
   width: 100%;
 }
-
 h2 {
   position: relative;
   padding: 0.5em;
@@ -90,13 +86,11 @@ h2 {
   margin: 5rem;
   background: linear-gradient(transparent 40%, #ffc037 150%);
 }
-
 h2:before,
 h2:after {
   position: absolute;
   content: "";
 }
-
 h2:after {
   top: 0;
   left: 0;
@@ -105,7 +99,6 @@ h2:after {
   border-top: 4px solid rgb(23, 2, 114);
   border-left: 4px solid rgb(23, 2, 114);
 }
-
 h2:before {
   right: 0;
   bottom: 0;
@@ -114,7 +107,6 @@ h2:before {
   border-right: 4px solid rgb(23, 2, 114);
   border-bottom: 4px solid rgb(23, 2, 114);
 }
-
 .wrapper #resultBlock {
   max-width: 1000px;
   margin: 0px auto;
@@ -132,7 +124,6 @@ h2:before {
   margin: 70px 0px 70px 0px;
   border-radius: 5%;
 }
-
 @media (min-width: 992px) {
   .wrapper #resultAreaBlock #resultImageBlock {
     display: flex;
@@ -169,13 +160,11 @@ h2:before {
   font-size: 0.8rem;
   color: #666666;
 }
-
 #resultLinkBlock {
   padding: 200px 0 200px 0;
   margin: 30rem 0 0 0;
   display: block;
 }
-
 .retry-btn {
   display: inline-block;
   position: relative;
