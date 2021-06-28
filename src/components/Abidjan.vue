@@ -9,14 +9,13 @@
           <br />
           <h2>アビジャン</h2>
         </div>
-        <div></div>
         <div id="resultAreaBody">
           "西アフリカ コートジボワールの大都市！"
           <br />
           <br />
           "近未来建築と大自然が共存するアビジャン"
         </div>
-        <div class="sp_on">
+        <div id="resultAreaImage">
           <img
             src="../assets/Abidjan_top.jpg"
             alt="アビジャン"
@@ -68,7 +67,7 @@
         <br />
         "〜〜〜〜〜〜〜〜〜〜〜〜〜"
       </div> -->
-      <div id="resultLinkBlock" class="clearfix">
+      <div id="resultLinkBlock">
         <a href=" " class="retry-btn">
           <span>もう一度診断する</span>
         </a>

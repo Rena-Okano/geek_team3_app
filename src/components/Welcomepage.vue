@@ -3,7 +3,7 @@
     <div v-if="quiz === true">
       <div class="welcomepage">
         <div>
-          <h1>あなたにピッタリの旅行先は？</h1>
+          <h1 id="welcomeTytle">あなたにピッタリの旅行先は？</h1>
         </div>
         <div>
           <transition
@@ -68,15 +68,17 @@ export default {
   width: 100%;
   position: absolute;
 
-  background: #343536;
+  background: #eaf4fd;
   background-position: center;
   align-items: center;
   text-align: center;
   justify-content: center;
 
-  background-size: contain;
-  color: rgb(255, 255, 255);
+  background-size: cover;
+  color: rgb(73, 24, 24);
+  font-family: "Hannotate SC";
 }
+
 /*.bg_pattern {
   position: fixed;
   top: 0;
@@ -133,6 +135,7 @@ h1 {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Hannotate SC";
 }
 
 .shindan-button {
@@ -141,11 +144,13 @@ h1 {
   color: #fff;
   line-height: 50px;
   width: 25%;
-  padding: 20px;
+  padding: 50px;
+  font-family: "Hannotate SC";
 }
 .shindan-button:hover {
   background-color: #fff;
   border-color: #59b1eb;
   color: #59b1eb;
+  font-family: "Hannotate SC";
 }
 </style>

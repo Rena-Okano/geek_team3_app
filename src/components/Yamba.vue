@@ -4,7 +4,6 @@
   <div id="wrapper">
     <div id="resultBlock">
       <div id="resultAreaBlock" class="Abidjan">
-
         <div id="resultAreaTitle">
           "あなたにおすすめの旅先は...”
           <br />
@@ -19,7 +18,6 @@
         <div id="resultAreaImage" class="sp_on">
           <img src="../assets/Yamba_top.jpg" alt="八ッ場ダム" />
         </div>
-
       </div>
       <div id="resultImageBlock">
         <div class="image_thumb">
@@ -49,6 +47,5 @@
         </div>
       </div>
     </div>
-  </div>
   </div>
 </template>
