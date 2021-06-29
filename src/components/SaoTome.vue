@@ -33,25 +33,15 @@
           <p>中央市場</p>
         </div>
 
-        <div id="resultTxtBlock">
-          "〜〜〜〜〜〜〜〜〜〜〜〜〜〜"
-          <br />
-          "〜〜〜〜〜〜〜〜〜〜〜〜〜"
-          <div class="image_thumb">
-            <img
-              src="../assets/SaoT_obo-park.jpeg"
-              alt="観光地3"
-              class="image"
-            />
-            <p>オボ自然公園</p>
-          </div>
-          <div id="resultLinkBlock" class="clearfix">
-            <div id="resultLinkBlock">
-              <a href=" " class="retry-btn">
-                <span>もう一度診断する</span>
-              </a>
-            </div>
-          </div>
+        <div class="image_thumb">
+          <img src="../assets/SaoT_obo-park.jpeg" alt="観光地3" class="image" />
+          <p>オボ自然公園</p>
+        </div>
+
+        <div id="resultLinkBlock">
+          <a href=" " class="retry-btn">
+            <span>もう一度診断する</span>
+          </a>
         </div>
       </div>
     </div>
@@ -61,6 +51,7 @@
 /* resultBlock */
 .wrapper {
   width: 100%;
+  background: #eaf4fd;
 }
 h2 {
   position: relative;
