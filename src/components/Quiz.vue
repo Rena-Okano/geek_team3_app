@@ -1,38 +1,42 @@
 <template>
-  <div class="spot">
-    <div v-if="answer === 'クロアチア'">
-      <Croatia />
-    </div>
-    <div v-else-if="answer === 'アビジャン'">
-      <Abidjan />
-    </div>
-    <div v-else-if="answer === 'サマルカンド'">
-      <Samarkand />
-    </div>
-    <div v-else-if="answer === 'サントメ・プリンシペ'">
-      <SaoTome />
-    </div>
-    <div v-else-if="answer === 'ディングル半島'">
-      <Dingle />
-    </div>
+  <div class="wrapper">
+    <div class="spot">
+      <div v-if="answer === 'クロアチア'">
+        <Croatia />
+      </div>
+      <div v-else-if="answer === 'アビジャン'">
+        <Abidjan />
+      </div>
+      <div v-else-if="answer === 'サマルカンド'">
+        <Samarkand />
+      </div>
+      <div v-else-if="answer === 'サントメ・プリンシペ'">
+        <SaoTome />
+      </div>
+      <div v-else-if="answer === 'ディングル半島'">
+        <Dingle />
+      </div>
 
-    <div v-else-if="answer === '金沢'">
-      <Kanazawa />
-    </div>
-    <div v-else-if="answer === '豊島'">
-      <Teshima />
-    </div>
-    <div v-else-if="answer === '八ッ場'">
-      <Yamba />
-    </div>
+      <div v-else-if="answer === '金沢'">
+        <Kanazawa />
+      </div>
+      <div v-else-if="answer === '豊島'">
+        <Teshima />
+      </div>
+      <div v-else-if="answer === '八ッ場'">
+        <Yamba />
+      </div>
 
-    <div v-else>
-      <div class="quiz">
-        <div class="box">{{ Quiz[index].Question }}</div>
+      <div v-else>
+        <div class="quiz">
+          <div class="box">{{ Quiz[index].Question }}</div>
 
-        <button v-on:click="yes" id="yes">{{ Quiz[index].Yes }}</button>
-        <button v-on:click="no" id="no">{{ Quiz[index].No }}</button><br />
-        <button v-bind:disabled="flag" v-on:click="next" id="next">次へ</button>
+          <button v-on:click="yes" id="yes">{{ Quiz[index].Yes }}</button>
+          <button v-on:click="no" id="no">{{ Quiz[index].No }}</button><br />
+          <button v-bind:disabled="flag" v-on:click="next" id="next">
+            次へ
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -196,6 +200,12 @@ export default {
 }
 </script>
 <style scoped>
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #eaf4fd;
+  background-size: cover;
+}
 .spot {
   width: 100%;
   height: 100%;
@@ -205,6 +215,7 @@ export default {
   background-size: cover;
   height: 100%;
   align-items: center;
+  width: 100%;
 }
 .box {
   background: #eaf4fd;
@@ -222,6 +233,7 @@ export default {
   margin: 0% 10% 10% 10%;
 
   background: rgb(207, 232, 220);
+
   border: 2px solid rgb(79, 185, 227);
   border-radius: 5px;
 
@@ -235,6 +247,7 @@ export default {
   line-height: 40px;
   width: 12%;
   margin-top: 5%;
+  font-family: "Hannotate SC";
 }
 #no {
   background-color: rgb(46, 67, 95);
@@ -244,6 +257,7 @@ export default {
   width: 12%;
   height: 3%;
   margin-top: 5%;
+  font-family: "Hannotate SC";
 }
 #next {
   background-color: #ffb76b;
@@ -255,7 +269,7 @@ export default {
 
   margin-top: 100px;
   margin-bottom: 60px;
-
+  font-family: "Hannotate SC";
 }
 #yes:hover {
   background-color: #fff;
