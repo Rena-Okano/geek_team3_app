@@ -49,6 +49,7 @@ export default {
       index: 0,
     }
   },
+
   methods: {
     shindan: function () {
       this.quiz = false

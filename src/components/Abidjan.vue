@@ -78,6 +78,7 @@
 /* resultBlock */
 .wrapper {
   width: 100%;
+  background: #eaf4fd;
 }
 h2 {
   position: relative;
@@ -147,6 +148,26 @@ h2:before {
     width: calc(100% / 3);
   }
 }
+
+/* @media screen and (min-width: 480px) {
+  .image_thumb {
+    margin: 0px;
+    width: calc(100% / 3);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .image_thumb {
+    margin: 0px;
+    width: calc(100% / 3);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .image_thumb {
+    margin: 0px;
+    width: calc(100% / 3);
+  }
+} */
+
 .image_thumb .image {
   display: block;
   width: 300px;

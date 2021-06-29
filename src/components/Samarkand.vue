@@ -56,6 +56,7 @@
 /* resultBlock */
 .wrapper {
   width: 100%;
+  background: #eaf4fd;
 }
 h2 {
   position: relative;
